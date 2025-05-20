@@ -38,7 +38,7 @@ export default function BudgetUploader() {
 
   return (
     <div className="p-6 max-w-xl mx-auto space-y-4">
-      <h1 className="text-2xl font-bold">Upload Your Budget PDF</h1>
+      <h1 className="text-2xl font-bold">Upload Your Bank Statement</h1>
       <Input
         type="file"
         accept="application/pdf"
