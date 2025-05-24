@@ -18,7 +18,7 @@ export default function BudgetUploader() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("https://budget-backend-1gug.onrender.com/upload-pdf", {
+      const res = await fetch("https://budget-pdf-backend.onrender.com/upload-pdf", {
         method: "POST",
         body: formData,
       });
